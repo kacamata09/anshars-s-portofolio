@@ -36,3 +36,4 @@ yarn-error.log*
 # next-env.d.js
 /public/assets/images
 yarn.lock
+.env

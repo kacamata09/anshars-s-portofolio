@@ -3,7 +3,6 @@ import Stack from '@mui/material/Stack';
 
 // @project
 import branding from '@/branding.json';
-import { ProPage } from '@/blocks/pro-page';
 import ContainerWrapper from '@/components/ContainerWrapper';
 import SectionHero from '@/components/SectionHero';
 import SimulatorTypeset from '@/components/SimulatorTypeset';
@@ -44,7 +43,6 @@ export default function ColorPage() {
       <ContainerWrapper>
         <Stack sx={{ gap: { xs: 1.5, md: 2.5 }, my: 6 }}>
           <SimulatorTypeset {...colorData.typeset} />
-          <ProPage {...data} />
         </Stack>
       </ContainerWrapper>
     </>

@@ -1,3 +1,5 @@
+"use client";
+
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 import { useTheme } from '@mui/material/styles';

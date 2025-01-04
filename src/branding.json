@@ -1,0 +1,24 @@
+{
+  "brandName": "Despcodr",
+  "title": "Portofolio",
+  "company": {
+    "name": "Anshar Despcodr",
+    "url": "https://github.com/kacamata09",
+    "socialLink": {
+      "linkedin": "https://linkedin.com/in/anshar27e",
+      "instagram": "#",
+      "facebook": "",
+      "youtube": "",
+      "github": "https://github.com/kacamata09",
+      "dribble": "https://dribbble.com/",
+      "discord": "https://discord.com/invite/",
+      "support": "https://su"
+    }
+  },
+  "logo": {
+    "main": "/assets/images/anshar.png",
+    "logoIcon": "/assets/images/monokumma.gif",
+    "logoFab": "",
+    "logoWatermark": ""
+  }
+}

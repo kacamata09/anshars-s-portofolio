@@ -14,7 +14,7 @@ export const navbar = {
     ...linkProps,
     sx: { minWidth: 40, width: 40, height: 40, p: 0 }
   },
-  primaryBtn: { children: 'Hire Me', href: '#contact-me', ...linkProps },
+  primaryBtn: { children: 'Hire Me', href: '#contact-me' },
   navItems: [
     // { id: 'home', title: 'Home', link: '/', color: "red" },
     { id: 'home', title: 'Home', link: '#hero-section', color: "red" },

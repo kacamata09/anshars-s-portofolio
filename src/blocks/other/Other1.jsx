@@ -38,6 +38,7 @@ const ProjectDetailsModal = ({
   open = false,
   handleClose = () => {},
   projectName = "Unknown Project",
+  company = "Unknown Project",
   dateFrom = "Not specified",
   dateTo = "Not specified",
   description = "No description available.",
@@ -113,8 +114,11 @@ const ProjectDetailsModal = ({
             <Typography color={'crimsonred'} id="project-details-title" variant="h5" fontWeight="bold">
               {projectName}
             </Typography>
-            <Typography color={'white'} variant="subtitle1" sx={{ mb: 2 }}>
+            {/* <Typography color={'white'} variant="subtitle1" sx={{ mb: 2 }}>
               {dateFrom} - {dateTo}
+            </Typography> */}
+            <Typography color={'white'} variant="subtitle1" sx={{ mb: 2 }}>
+              {company}
             </Typography>
 
             <Divider sx={{ my: 2 }} />
@@ -299,7 +303,7 @@ export default function Other1({ heading, description, primaryBtn, sections }) {
   color="white"
   sx={{ flexGrow: 1 }}
 >
-  {item.description.length > 18 ? `${item.description.substring(0, 99)}..... More` : item.description}
+  {item.description.length > 18 && (item.githubLink || item.demoLink) ? `${item.description.substring(0, 99)}........` : item.description.substring(0, 192) + '.......'}
 </Typography>
 
     {/* Tombol */}

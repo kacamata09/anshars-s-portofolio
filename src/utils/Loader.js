@@ -18,7 +18,7 @@ export default function Loader() {
       }
       .progress-bar-container {
         width: 100%;
-        background-color: ${theme.palette.primary.lighter}; /* This is the background for the progress bar */
+        background-color: ${theme.palette.primary.darker}; /* This is the background for the progress bar */
         border-radius: 4px;
         overflow: hidden;
       }

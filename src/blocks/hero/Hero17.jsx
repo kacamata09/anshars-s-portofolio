@@ -103,7 +103,7 @@ export default function HeroPortfolio({ chip, headLine, captionLine, primaryBtn,
         height: '100vh',
         px: { xs: 2, sm: 3 },
         py: { xs: 3, sm: 5 },
-        background: 'rgba(0, 0, 0, 0.5)', // Tetap dengan latar belakang semi-transparan
+        background: 'rgba(0, 0, 0, 0.3)', // Tetap dengan latar belakang semi-transparan
         overflow: 'hidden',
       }}
     >

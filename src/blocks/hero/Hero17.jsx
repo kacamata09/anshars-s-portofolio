@@ -107,6 +107,23 @@ export default function HeroPortfolio({ chip, headLine, captionLine, primaryBtn,
         overflow: 'hidden',
       }}
     >
+          {/* <Box
+    id="hero-section"
+    sx={{
+      display: 'flex',
+      flexDirection: { xs: 'column', md: 'row' }, // Kolom untuk mobile, baris untuk desktop
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      height: '100vh',
+      px: { xs: 2, sm: 3 },
+      py: { xs: 3, sm: 5 },
+      backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/bg4.jpg")', // Gambar dan overlay
+      backgroundSize: 'cover', // Memastikan gambar menutupi seluruh area
+      backgroundPosition: 'center', // Memusatkan gambar
+      backgroundRepeat: 'no-repeat', // Mencegah pengulangan gambar
+      overflow: 'hidden',
+    }}
+    > */}
       <ContainerWrapper sx={{ py: SECTION_COMMON_PY }}>
         <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, width: '100%' }}>
           {/* Left Side: Text Content */}

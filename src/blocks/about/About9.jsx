@@ -34,7 +34,7 @@ export default function AboutMe({
             <Avatar
               src={imageUrl}
               alt="Profile Picture"
-              sx={{ width: 120, height: 120, boxShadow: 3, border: '2px solid', borderColor: 'grey.300' }}
+              sx={{ width: 180, height: 180, boxShadow: 3}}
             />
           </motion.div>
         )}

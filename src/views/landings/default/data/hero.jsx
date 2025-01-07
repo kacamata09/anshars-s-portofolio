@@ -8,8 +8,8 @@ export const hero = {
   chip: {
     label: (
       <>
-        <Typography variant="caption" sx={{ color: 'red',  }}>
-        Let me go over the case again, from the beginning. And shed light on all your crimes.
+        <Typography variant="subtitle2" sx={{ color: 'red',  }}>
+        Keep moving forward, and never let yourself fall behind.
         </Typography>
         {/* <Chip
           label={
@@ -31,7 +31,7 @@ export const hero = {
       </>
     )
   },
-  image : "/assets/images/monokuma.png",
+  image : "/assets/images/naegi.webp",
   headLine: 'Hi There, i am Anshar!!!',
   captionLine: 'Backend Developer | Software Engineer',
   primaryBtn: { children: 'Hire Me', href: '#contact-me' },

@@ -118,7 +118,7 @@ const ProjectDetailsModal = ({
               {dateFrom} - {dateTo}
             </Typography> */}
             <Typography color={'white'} variant="subtitle1" sx={{ mb: 2 }}>
-              {company}
+              at {company}
             </Typography>
 
             <Divider sx={{ my: 2 }} />
@@ -130,9 +130,9 @@ const ProjectDetailsModal = ({
               {description}
             </Typography>
 
-            <Typography color={'white'} variant="h6" gutterBottom>
+            {/* <Typography color={'white'} variant="h6" gutterBottom>
               Responsibility:
-            </Typography>
+            </Typography> */}
             <Stack spacing={1} sx={{ mb: 2 }}>
               {responsibility.map((task, index) => (
                 <Typography color={'white'} variant="body1" key={index}>
